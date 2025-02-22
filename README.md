@@ -20,7 +20,47 @@ SkyRush is an innovative flight reservation system that revolutionizes the way u
 
 ## Project Structure
 
-flight-reservation-soap/ ├── pom.xml ├── src │ ├── main │ │ ├── java │ │ │ └── com │ │ │ └── example │ │ │ └── flightreservation │ │ │ ├── FlightReservationApplication.java │ │ │ ├── config │ │ │ │ └── WebServiceConfig.java │ │ │ ├── endpoint │ │ │ │ └── FlightEndpoint.java │ │ │ ├── model │ │ │ │ └── Flight.java │ │ │ ├── repository │ │ │ │ └── FlightRepository.java │ │ │ ├── service │ │ │ │ └── FlightService.java │ │ │ └── soap │ │ │ ├── GetFlightRequest.java │ │ │ └── GetFlightResponse.java │ │ └── resources │ │ ├── application.properties │ │ ├── flight.xsd │ │ └── db │ │ └── migration │ │ └── V1__Initial_setup.sql └── README.md
+SkyRush/
+├── pom.xml
+├── README.md
+├── .gitignore
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── skyrush
+│   │   │           ├── config
+│   │   │           │   └── WebServiceConfig.java
+│   │   │           ├── endpoint
+│   │   │           │   └── soap
+│   │   │           │       └── FlightEndpoint.java
+│   │   │           ├── domain
+│   │   │           │   ├── entity
+│   │   │           │   │   └── Flight.java
+│   │   │           │   ├── dto
+│   │   │           │   │   ├── GetFlightRequest.java
+│   │   │           │   │   └── GetFlightResponse.java
+│   │   │           │   └── exception
+│   │   │           │       └── GlobalExceptionHandler.java
+│   │   │           ├── repository
+│   │   │           │   └── FlightRepository.java
+│   │   │           ├── service
+│   │   │           │   ├── FlightService.java
+│   │   │           │   └── impl
+│   │   │           │       └── FlightServiceImpl.java
+│   │   │           └── SkyRushApplication.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       ├── flight.xsd
+│   │       ├── db
+│   │       │   └── migration
+│   │       │       └── V1__Initial_setup.sql
+│   │       └── logback-spring.xml
+│   └── test
+│       └── java
+│           └── com
+│               └── skyrush
+│                   └── (Test classes)
 
 
 
