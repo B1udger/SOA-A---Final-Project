@@ -20,47 +20,7 @@ SkyRush is an innovative flight reservation system that revolutionizes the way u
 
 ## Project Structure
 
-SkyRush/
-├── pom.xml
-├── README.md
-├── .gitignore
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── skyrush
-│   │   │           ├── config
-│   │   │           │   └── WebServiceConfig.java
-│   │   │           ├── endpoint
-│   │   │           │   └── soap
-│   │   │           │       └── FlightEndpoint.java
-│   │   │           ├── domain
-│   │   │           │   ├── entity
-│   │   │           │   │   └── Flight.java
-│   │   │           │   ├── dto
-│   │   │           │   │   ├── GetFlightRequest.java
-│   │   │           │   │   └── GetFlightResponse.java
-│   │   │           │   └── exception
-│   │   │           │       └── GlobalExceptionHandler.java
-│   │   │           ├── repository
-│   │   │           │   └── FlightRepository.java
-│   │   │           ├── service
-│   │   │           │   ├── FlightService.java
-│   │   │           │   └── impl
-│   │   │           │       └── FlightServiceImpl.java
-│   │   │           └── SkyRushApplication.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       ├── flight.xsd
-│   │       ├── db
-│   │       │   └── migration
-│   │       │       └── V1__Initial_setup.sql
-│   │       └── logback-spring.xml
-│   └── test
-│       └── java
-│           └── com
-│               └── skyrush
-│                   └── (Test classes)
+![image](https://github.com/user-attachments/assets/b7cabc0d-3bda-4bf8-89f9-5321562f07c1)
 
 
 
